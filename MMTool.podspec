@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-                   A short description of MMTool...
+                   A short description of MMTool This description is used to generate tags and improve search results
                    DESC
 
   spec.homepage     = "https://github.com/SmilerTom/MMTool"
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "MMTool", "MMTool/**/*.{h,m}"
+  spec.source_files  = "MMTool", "MMTool/*"
   #spec.exclude_files = "MMTool/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -120,7 +120,7 @@ Pod::Spec.new do |spec|
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
-  spec.vendored_libraries   = "MMTool", "MMTool/**/*.a"
+  #spec.vendored_libraries   = "MMTool.a"
   # spec.libraries = "iconv", "xml2"
 
 
