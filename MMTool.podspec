@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MMTool"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "A short description of MMTool"
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "MMTool", "MMTool/*"
+  spec.source_files  = "MMTool", "MMTool/**/*.h"
+  spec.vendored_libraries = '**/MMSDK.a' 
   #spec.exclude_files = "MMTool/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"

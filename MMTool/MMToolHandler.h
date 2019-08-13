@@ -10,6 +10,8 @@
 
 @interface MMToolHandler : NSObject
 
++ (void)setLogEnabled:(BOOL)flag;
+
 + (void)setAppKey:(NSString *)appKey appSecret:(NSString *)appSecret;
 
 @end
